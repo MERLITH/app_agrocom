@@ -1,0 +1,54 @@
+
+/* table > tbody > tr.selected {
+  background-color: rgba(217, 116, 29) !important;
+  
+} */
+
+table.dataTable > tbody > tr.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(102, 108, 255, 0.1) !important;
+  color: var(--bs-black-selected) !important;
+}
+
+
+.fx-nowrap{
+  flex-wrap: nowrap !important;
+}
+
+.rounded-r-0{
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+/**** PAGE SIZE */
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"][layout="VERTICAL"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="HORIZONTAL"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+page[size="A3"][layout="VERTICAL"] {
+  width: 29.7cm;
+  height: 42cm;
+}
+page[size="A3"][layout="HORIZONTAL"] {
+  width: 42cm;
+  height: 29.7cm;  
+}
+page[size="A5"][layout="VERTICAL"] {
+  width: 14.8cm;
+  height: 21cm;
+}
+page[size="A5"][layout="HORIZONTAL"] {
+  width: 21cm;
+  height: 14.8cm;  
+}

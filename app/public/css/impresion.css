@@ -1,0 +1,47 @@
+.panel-success, .panel-heading, span, .font-weight-bold, p, div{
+  border-color:#000 !important;
+  color:#000 !important;
+}
+
+.ibox-content{
+  border:none;
+}
+
+table {
+    border-color:#000 !important;
+    color:#000 !important;
+    border:solid #000 !important;
+    border-width:0 !important;
+}
+th, td {
+    border-color:#000 !important;
+    color:#000 !important;
+    border:solid #000 !important;
+    border-width:0 !important;
+    font-size:12px;
+}
+
+th {
+    border-width:0 0 1px 0 !important;
+}
+
+.no-imprimir{
+  display: none;
+}
+
+.box-header:before, .box-body:before, .box-footer:before, .box-header:after, .box-body:after, .box-footer:after
+{
+  display: block;
+}
+
+.box-header{
+  padding:0px !important;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+h4{
+  color:#000 !important;
+}
